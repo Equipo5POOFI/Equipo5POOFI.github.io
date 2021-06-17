@@ -5,34 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Equipo 5</title>
+
     <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
         body{
-            background: #000;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background: #172123;
         }
-        div{
-            background: #c0c0c0;
-            height: 250px;
-            width: 80%;
-            margin: auto;
-            margin-top: 200px;
-            padding: 50px;
-            border-radius: 20px;
+
+        .Box{
+            background: #3b5257 ;
+            margin: 15px 10px;
+            height: 750px;
+            width: 48.5%;
+            padding: 20px;
         }
+
+        #Uno{
+            float: left;
+        }
+
+        #Dos{
+            float: right;
+        }
+
         h1{
             font-size: 70px;
-            color: #333;
-            margin: auto;
             text-align: center;
-            margin-top: 70px;
-            
+            margin: 300px 0px;
         }
+
+        h2{
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        .navbar{
+            list-style: none;
+            background: #5e848c;
+            border-radius: 10px;
+            width: 100%;
+            height: 620px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .navbar li{
+            font-size: 30px;
+            line-height: 3em;
+        }
+
+        .navbar li a{
+            color:#d5e4e7;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover{
+            font-size: 35px;
+            color: #4f4f4f;
+        }
+
     </style>
+
+
 </head>
+
 <body>
-    <div>
-        <h1>Equipo 5</h1>
-        
+
+    <div class="Container">
+        <div id="Uno" class="Box">
+            <h1>Equipo 5</h1>
+        </div>
+    
+        <div id="Dos" class="Box">
+            <h2>Documentacion </h2>
+            <ul class="navbar">
+                <li><a href="https://equipo5poofi.github.io/Practica5/" target="_blank">Practica 5</a></li>
+                <li><a href="#">Practica 6</a></li>
+                <li><a href="#">Practica 7</a></li>
+                <li><a href="#">Practica 8</a></li>
+            </ul>
+        </div>
     </div>
+    
 </body>
 </html>
